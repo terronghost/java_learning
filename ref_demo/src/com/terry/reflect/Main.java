@@ -19,7 +19,7 @@ public class Main {
         System.out.println("--------------------");
 
         // 获得类的属性
-        Field[] fields = clazz.getFields();
+        Field[] fields = clazz.getDeclaredFields();
         for (Field f: fields) {
             System.out.println(f);
         }
